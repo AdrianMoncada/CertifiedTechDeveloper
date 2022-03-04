@@ -15,7 +15,7 @@ if(computerSelection == 3){
 } else if(computerSelection == 2){
   alert("La computadora seleccionó Papel");
 } else{
-  alert("La computadora seleccionó TIjera");
+  alert("La computadora seleccionó Tijera");
 }
 
 if(playerSelection == 3 && computerSelection == 2 || playerSelection == 2 && computerSelection == 1 || playerSelection == 1 && computerSelection == 3  ){
