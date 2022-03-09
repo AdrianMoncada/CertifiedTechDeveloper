@@ -1,11 +1,14 @@
+
 function startGame(){
   let resultado;
-  let playerSelection = prompt("Piedra, Papel o Tijeras?");
-  if(playerSelection.includes("Piedra")){
+  let input = prompt("Piedra, Papel o Tijeras?");
+  let playerSelection = input.toUpperCase();
+
+  if(playerSelection.includes("PIEDRA")){
   playerSelection = 3;
-    }else if(playerSelection.includes("Papel")){
+    }else if(playerSelection.includes("PAPEL")){
     playerSelection = 2;
-      }else if(playerSelection.includes("Tijeras")){
+      }else if(playerSelection.includes("TIJERAS")){
       playerSelection = 1;
       }
 let computerSelection = parseInt(Math.random()*3+1);
@@ -20,13 +23,23 @@ if(computerSelection == 3){
 
 if(playerSelection == 3 && computerSelection == 2 || playerSelection == 2 && computerSelection == 1 || playerSelection == 1 && computerSelection == 3  ){
   resultado = "Perdiste";
+  return puntajeComputadora++;
 } else if(playerSelection == 3 && computerSelection == 1 || playerSelection == 2 && computerSelection == 3 || playerSelection == 1 && computerSelection == 2){
   resultado = "Ganaste";
+  return puntajeJugador++;
 } else{
-  resultado = "Empataste";
+  return resultado = "Empataste";
 }
 
 alert(resultado)
 }
 
-startGame();
+function playUntil(numberOfGames){
+  puntajeJugador = 0;
+  puntajeComputadora = 0;
+  while(puntajeJugador < numberOfGames || puntajeComputadora < numberOfGames){
+    startGame();
+  }
+}
+
+playUntil(3);
