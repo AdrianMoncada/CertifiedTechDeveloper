@@ -12,13 +12,15 @@ public class Main {
             String opcionUno = "piedra";
             String opcionDos = "papel";
             String opcionTres = "tijera";
+            String opcionCuatro = "spock";
 
             if(eleccionUno.equals(opcionUno) && eleccionDos.equals(opcionTres) || eleccionUno.equals(opcionDos) && eleccionDos.equals(opcionUno)
-                    || eleccionUno.equals(opcionTres) && eleccionDos.equals(opcionDos)){
+                    || eleccionUno.equals(opcionTres) && eleccionDos.equals(opcionDos)) || eleccionUno.equals(opcionCuatro) && eleccionDos.equals(opcionTres)
+                    || eleccionUno.equals(opcionCuatro) && eleccionDos.equals(opcionUno){
                 System.out.println("Jugador 1 gana!");
                 return 1;
             } else if(eleccionUno.equals(opcionUno) && eleccionDos.equals(opcionDos) || eleccionUno.equals(opcionDos) && eleccionDos.equals(opcionTres)
-                    || eleccionUno.equals(opcionTres) && eleccionDos.equals(opcionUno)){
+                    || eleccionUno.equals(opcionTres) && eleccionDos.equals(opcionUno)) || eleccionUno.equals(opcionCuatro) && eleccionDos.equals(opcionDos){
                 System.out.println("Jugador 2 gana!");
                 return 2;
             } else{
@@ -38,10 +40,10 @@ public class Main {
             while(true){
 
 
-                System.out.println("Elección Jugador Uno: ");
+                System.out.println("¿Piedra, papel, tijera o spock?: ");
                 String eleccionJugadorUno = scan.nextLine();
 
-                System.out.println("Elección Jugador Dos: ");
+                System.out.println("¿Piedra, papel, tijera o spock?: ");
                 String eleccionJugadorDos = scan.nextLine();
 
                 if(eleccionJugadorUno.contains("*") || eleccionJugadorDos.contains("*")){
