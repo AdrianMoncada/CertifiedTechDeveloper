@@ -60,4 +60,21 @@ function renderizarFelinos() {
   })
 }
 
-renderizarFelinos()
+
+
+/* -------------------------------------------------------------------------- */
+/*                  FUNCION: modo oscuro              */
+/* -------------------------------------------------------------------------- */
+
+let body = document.body;
+let botonModoOscuro = document.getElementsByClassName("botonModoOscuro")
+
+function modoOscuro(){
+  if (botonModoOscuro.innerHTML === "Oscuro") {
+    botonModoOscuro.innerHTML = "Claro";
+  } else {
+    botonModoOscuro.innerHTML = "Oscuro";
+  }
+    body.classList.toggle("darkMode");
+}
+
