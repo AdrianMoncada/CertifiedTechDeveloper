@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+:root {
+  --verde: #1ED55F;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -62,4 +66,8 @@ h1 {
 
 .darkMode .item p{
   color: rgb(230, 230, 230);
+}
+
+.favorito {
+  color: var(--verde);
 }
