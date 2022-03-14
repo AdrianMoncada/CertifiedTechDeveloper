@@ -91,12 +91,14 @@ function modoOscuro(){
     body.classList.toggle("darkMode");
 }
 
+/* -------------------------------------------------------------------------- */
+/*                  FUNCION: corazón on click fav              */
+/* -------------------------------------------------------------------------- */
+
 function toggleHeart(identificador) {
-  console.log(identificador)
   listadoFelinos.forEach( felino => {
     if(felino.id === identificador) {
       felino.like = !felino.like
-      console.log(felino.like)
     }
   })
   renderizarFelinos()
