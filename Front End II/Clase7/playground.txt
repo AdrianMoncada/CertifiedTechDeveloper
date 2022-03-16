@@ -1,0 +1,37 @@
+ONLOAD
+
+window.onload = function(){
+  code
+}
+
+ONCLICK
+
+btn.onclick = function(){
+  code
+}
+
+PREVENTDEFAULT
+
+x.addEventListener("click", function(event){
+  code;
+  event.preventDefault();
+})
+
+ONMOUSEOVER
+x.addEventListener("mouseover", function(){
+  code;
+})
+
+
+--TECLADO--
+ONKEYDOWN / ONKEYUP / ONKEYPRESS
+x.addEventListener("onkeydown", function(){
+  code;
+})
+
+
+
+
+
+onDblclick - onmouseover - onmousemove - onscroll - onkeydown - onsubmit  
+
