@@ -58,6 +58,7 @@ window.addEventListener('load', function () {
     clearInterval(myInterval);
         n = 0
         valor.innerText = n
+        
 } )
 
   acelerar.addEventListener("click", () => {
