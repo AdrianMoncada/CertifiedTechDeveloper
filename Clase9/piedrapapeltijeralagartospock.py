@@ -2,6 +2,14 @@
 import random
 import sys
 
+# paso1
+
+puntajeUsuario = 0
+puntajePc = 0
+puntajeTotal = 0
+ganaUsuario = 0
+ganaPc = 0
+
 def get_int():
     userdata = input("Ingrese un número, o 's' para salir del programa ")
     if userdata == 's':
@@ -12,7 +20,17 @@ def get_int():
         return user_num
     except ValueError:
         print("Necesito un número para continuar: ")
-        return(get_int())
+        return(get_intget_int())
+
+# paso2
+
+def porcentaje():
+    if puntajeTotal > 0:
+        x = ((puntajeTotal - puntajePc) / puntajeTotal) * 100
+        return x
+    # elif puntajeTotal == 0:
+    #     x = 0
+    #     return x
 
 while True: 
     aleatorio = random.randrange(0, 5)
@@ -23,6 +41,7 @@ while True:
     print("3)Tijera")
     print("4)Lagarto")
     print("5)Spock")
+    print("6)Mostrar Puntajes")
     opcion = get_int()
     
     if opcion == 1:
@@ -35,6 +54,12 @@ while True:
         eligeUsuario = "lagarto"
     elif opcion == 5:
         eligeUsuario = "spock"
+    elif opcion == 6:
+        print ("Puntajes: ")
+        print ("Usuario: ", puntajeUsuario)
+        print ("Pc: ", puntajePc)
+        print ("Porcentaje de victorias: ", porcentaje(), "%")
+        continue
     else:
         print("Opción Invalida")
         continue
@@ -55,47 +80,72 @@ while True:
     
     if eligePc == "piedra" and eligeUsuario == "papel":
         print("Ganaste, papel envuelve piedra")
+        ganaUsuario = 1
     elif eligePc == "papel" and eligeUsuario == "tijera":
         print("Ganaste, tijera corta papel")
+        ganaUsuario = 1
     elif eligePc == "tijera" and eligeUsuario == "piedra":
         print("Ganaste, piedra aplasta tijera")
+        ganaUsuario = 1
     elif eligePc == "lagarto" and eligeUsuario == "piedra":
         print("Ganaste, piedra aplasta a lagarto")
+        ganaUsuario = 1
     elif eligePc == "lagarto" and eligeUsuario == "tijera":
         print("Ganaste, tijera decapita a Lagarto")
+        ganaUsuario = 1
     elif eligePc == "tijera" and eligeUsuario == "spock":
         print("Ganaste, Spock rompe tijera")
+        ganaUsuario = 1
     elif eligePc == "spock" and eligeUsuario == "lagarto":
         print("Ganaste, lagarto envenena a Spock")
+        ganaUsuario = 1
     elif eligePc == "papel" and eligeUsuario == "lagarto":
         print ("Ganaste, lagarto devora papel")
+        ganaUsuario = 1
     elif eligePc == "spock" and eligeUsuario == "papel":
         print ("Ganaste, papel desautoriza a Spock")
+        ganaUsuario = 1
     elif eligePc == "piedra" and eligeUsuario == "spock":
         print ("Ganaste, Spock vaporiza piedra")
+        ganaUsuario = 1
         
     if eligeUsuario == "piedra" and eligePc == "papel":
         print("Perdiste, papel envuelve piedra")
+        ganaPc = 1
     elif eligeUsuario == "papel" and eligePc == "tijera":
         print("Perdiste, tijera corta papel")
+        ganaPc = 1
     elif eligeUsuario == "tijera" and eligePc == "piedra":
         print("Perdiste, piedra aplasta tijera")
+        ganaPc = 1
     elif eligeUsuario == "lagarto" and eligePc == "piedra":
         print("Perdiste, piedra aplasta a lagarto")
+        ganaPc = 1
     elif eligeUsuario == "lagarto" and eligePc == "tijera":
         print("Perdiste, tijera decapita a Lagarto")
+        ganaPc = 1
     elif eligeUsuario == "tijera" and eligePc == "spock":
         print("Perdiste, Spock rompe tijera")
+        ganaPc = 1
     elif eligeUsuario == "spock" and eligePc == "lagarto":
         print("Perdiste, lagarto envenena a Spock")
+        ganaPc = 1
     elif eligeUsuario == "papel" and eligePc == "lagarto":
         print ("Perdiste, lagarto devora papel")
+        ganaPc = 1
     elif eligeUsuario == "spock" and eligePc == "papel":
         print ("Perdiste, papel desautoriza a Spock")
+        ganaPc = 1
     elif eligeUsuario == "piedra" and eligePc == "spock":
         print ("Perdiste, Spock vaporiza piedra")
+        ganaPc = 1
     elif eligePc == eligeUsuario:
         print("Empate")
+        ganaPc = 1
+    
+    puntajeUsuario = puntajeUsuario + ganaUsuario
+    puntajePc = puntajePc + ganaPc
+    puntajeTotal = puntajeUsuario + puntajePc
     while again == "":
         again = input("Jugamos de nuevo? Si/No: ")
         if 'si' in again:
