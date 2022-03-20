@@ -35,35 +35,53 @@ cambiarTema.addEventListener("click", alternarColorTema);
 
 function obtenerDatosDelUsuario() {
   /* --------------- PUNTO 1: Escribe tu codigo a partir de aqui --------------- */
- 
-
-
+  datosPersona.nombre = prompt("Ingresa tu nombre");
+  datosPersona.edad = 2022 - prompt("Ingresa el año en que naciste");
+  datosPersona.ciudad = prompt("Ingresa la ciudad donde vives");
+  datosPersona.interesPorJs = confirm("Te interesa JavaScript?");
 }
 
 function renderizarDatosUsuario() {
   /* ------------------- NO TOCAR NI ELIMINAR ESTA FUNCION. ------------------- */
   obtenerDatosDelUsuario();
   /* --------------- PUNTO 2: Escribe tu codigo a partir de aqui --------------- */
-  
-
-
+  const spans = document.querySelectorAll("span");
+  spans[0].innerHTML = datosPersona.nombre;
+  spans[1].innerHTML = datosPersona.edad;
+  spans[2].innerHTML = datosPersona.ciudad;
+  datosPersona.interesPorJs ? spans[3].innerHTML = "Si" : spans[3].innerHTML = "No";
 }
 
 
 function recorrerListadoYRenderizarTarjetas() {
   /* ------------------ PUNTO 3: Escribe tu codigo desde aqui ------------------ */
-  
+  const fila = document.querySelector("#fila");
 
+  if(fila.childElementCount == 0){
+    listado.map( materia => {
+      return fila.innerHTML += 
+      `
+      <div class="caja">
+      <img src="${materia.imgUrl}" alt="${materia.lenguajes}">
+      <p class="lenguajes">${materia.lenguajes}</p>
+      <p class="bimestre">${materia.bimestre}</p> 
+      </div>
+      `
+    })
+  }
 
 }
 
 function alternarColorTema() {
   /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
- 
-  
-
-
+  let sitio = document.querySelector("#sitio");
+  sitio.classList.toggle("dark");
 }
 
 /* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
-
+window.addEventListener("keypress", (event) => {
+  let sobreMi = document.querySelector("#sobre-mi");
+  if (event.key == "f") {
+    sobreMi.classList.remove("oculto");
+  }
+});
