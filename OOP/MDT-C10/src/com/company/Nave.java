@@ -1,12 +1,10 @@
 package com.company;
 
-import java.net.IDN;
-
 public class Nave extends Objeto {
     private Integer vida;
     private Double velocidad;
 
-    public Nave(Integer posx, Integer posy, String direccion)
+    public Nave(Integer posx, Integer posy, char direccion)
     {
         super(posx, posy, direccion);
         this.velocidad = 299_792.458;
@@ -14,7 +12,7 @@ public class Nave extends Objeto {
     }
 
 
-    public void girar(String direccion)
+    public void girar(char direccion)
     {
         super.direccion = direccion;
     }
