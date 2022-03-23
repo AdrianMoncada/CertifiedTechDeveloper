@@ -6,17 +6,21 @@ public class Nave extends Objeto {
     private Integer vida;
     private Double velocidad;
 
-    public Nave(Integer posx, Integer posy, Character direccion, Double velocidad){
+    public Nave(Integer posx, Integer posy, String direccion)
+    {
         super(posx, posy, direccion);
-        this.velocidad = 100000.0;
+        this.velocidad = 299_792.458;
         this.vida = 300;
     }
 
-    public void girar(Character direccion){
+
+    public void girar(String direccion)
+    {
         super.direccion = direccion;
     }
 
-    public void restarVida(Integer valor){
+    public void restarVida(Integer valor)
+    {
         this.vida = this.vida - valor;
     }
 
