@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Contenido Principal */
+main{
+  display: flex;
+  flex-direction: row;
+  background-color: #E5E5E5;
+}
+
+.imagen{
+  margin: 35px 5px 35px 19px;
+}
+
+
+.podio{
+  width: 50%;
+  height: 74vh;
+  margin: 35px 19px 35px 5px;
+}
+
+.podio h2{
+  color: #FC200C;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.division {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.division li {
+  list-style-type: decimal;
+}
+
+.division p {
+  padding-bottom: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: #F6F8FA;
+}
+
+
+form {
+  background-color: white;
+  width: 30vw;
+  height: fit-content;
+  padding: 2em;
+  margin: 4em 35vw;
+  border-radius: .2em;
+}
+
+h1 {
+  margin-bottom: .5em;
+  color: #fb5455;
+}
+
+input:not([type=checkbox]):not([type=radio]) {
+  position: relative;
+  width: 100%;
+  padding: .5em;
+  border-radius: .2em;
+  border: 1px solid transparent;
+  background-color: rgba(137, 43, 226, 0.082);
+  margin-bottom: 1em;
+}
+
+input.error:not([type=checkbox]):not([type=radio]) {
+  border: 1px solid red;
+}
+
+span {
+  color: red;
+}
+
+fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: none;
+  border: 1px solid rgba(137, 43, 226, 0.205);
+  margin-top: 1em;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+fieldset legend {
+  padding: 0 1em;
+}
+
+fieldset label {
+  display: block;
+  width: 9em;
+}
+
+input[type=checkbox] {
+  margin-right: 1em;
+  margin-bottom: .7em;
+}
+
+button {
+  color: rgb(212, 53, 53);
+  font-size: 1.1em;
+  padding: .5em 1em;
+  border: none;
+  margin-top: 1em;
+}
+#signUpButton {
+  background-color: #fb5455;
+  color: white;
+}
+
+button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
