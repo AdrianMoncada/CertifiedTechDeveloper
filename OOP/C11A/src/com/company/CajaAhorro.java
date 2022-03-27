@@ -14,7 +14,7 @@ public class CajaAhorro extends Cuenta {
 
     public void depositarEfectivo(Double monto){
         if(monto < 0){
-            System.out.println("Error: No puede extraer monto negativo");
+            System.out.println("Error: No puede depositar monto negativo");
         } else {
             this.saldo += monto;
         }
@@ -27,7 +27,7 @@ public class CajaAhorro extends Cuenta {
     @Override
     public void extraerEfectivo(Double monto) {
         if(monto < 0){
-            System.out.println("Error: No puede extraer monto negativo ");
+            System.out.println("Error: No puede extraer monto negativo");
         } else if(saldo >= monto){
             saldo -= monto;
         } else {

@@ -12,7 +12,7 @@ public class CuentaCorriente extends Cuenta{
 
     public void depositarEfectivo(Double monto){
         if(monto < 0){
-            System.out.println("Error: No puede extraer monto negativo");
+            System.out.println("Error: No puede depositar monto negativo");
         } else {
             this.saldo += monto;
         }
@@ -21,7 +21,7 @@ public class CuentaCorriente extends Cuenta{
     @Override
     public void extraerEfectivo(Double monto) {
         if(monto < 0){
-            System.out.println("Error: No puede extraer monto negativo ");
+            System.out.println("Error: No puede extraer monto negativo");
         }else if(saldo + montoGiro < monto){
             System.out.println("No tienes saldo disponible. Incluso teniendo en cuenta tu monto autorizado para girar en descubierto");
         }
