@@ -7,5 +7,5 @@ public abstract class Cuenta {
         this.cliente = cliente;
     }
 
-    public abstract void extraerEfectivo();
+    public abstract void extraerEfectivo(Double monto);
 }
