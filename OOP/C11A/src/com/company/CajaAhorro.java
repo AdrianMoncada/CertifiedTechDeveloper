@@ -7,6 +7,6 @@ public class CajaAhorro extends Cuenta {
 
     @Override
     public void extraerEfectivo() {
-        System.out.println("El cliente extrae dinero");
+        System.out.println("El cliente puede extraer dinero sin excederse de su saldo.");
     }
 }
