@@ -13,6 +13,7 @@ let usuario = {
 
 let span = document.createElement("span")
 let nameError = document.querySelector("#nameError")
+let passError = document.querySelector("#passError")
 
 
 
@@ -44,10 +45,11 @@ contraseniaUsuario.addEventListener("change", () => {
         usuario.contrasenia = contraseniaUsuario.value
     }
     else {
-        alert("contra invalida")
+        passError.appendChild(span)
+        span.innerText = "La contraseña debe contener: 1 mayúscula, 1 minúscula y un signo"
     }
     console.log(usuario)
-   })
+})
 
 formulario.addEventListener("submit", (e) => {
     e.preventDefault()

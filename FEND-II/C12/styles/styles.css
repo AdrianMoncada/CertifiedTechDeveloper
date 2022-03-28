@@ -114,6 +114,7 @@ input[type=checkbox] {
   margin-bottom: .7em;
 }
 
+
 button {
   color: rgb(212, 53, 53);
   font-size: 1.1em;
@@ -126,7 +127,21 @@ button {
   color: white;
 }
 
+#signInButton {
+  background-color: #ffffff;
+  color: #fb5455;
+  border: 1px solid #fb5455;
+}
+
 button:disabled {
   opacity: .5;
   cursor: not-allowed;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fb5455;
 }
