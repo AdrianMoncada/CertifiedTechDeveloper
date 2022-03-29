@@ -13,15 +13,15 @@
 
   <form>
     <h1>Inscripcion a Hogwarts</h1>
-    <label>
+    <label id="valdNombre">
       Nombre completo:
-      <input type="text" class="error" name="nombre" id="nombre" autocomplete="off">
+      <input type="text" name="nombre" id="nombre" autocomplete="off">
     </label>
-    <label>
+    <label id="valdContra">
       Contraseña:
       <input type="password" name="pass" id="pass">
     </label>
-    <label>
+    <label id="valdTel">
       Telefono:
       <input type="text" name="tel" id="tel">
     </label>
@@ -122,9 +122,10 @@
       </label>
     </fieldset>
 
-    <button disabled>Inscribirme</button>
+    <button type="submit">Inscribirme</button>
   </form>
-  <script src="script.js" defer></script>
+
+  <script src="app.js" defer></script>
 </body>
 
 </html>
