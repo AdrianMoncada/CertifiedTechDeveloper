@@ -1,44 +1,31 @@
-/*
-REQUERIMIENTOS
-- utilizar el formulario para captar el texto ingresado
-
-- implmentar el evento "submit", utilizarlo para guardar el comentario en un array
-
-- cada vez que se agrega un nuevo comentario renderizarlo en una etiqueta "p"(sacar del html los hardcodeados y hacerlo dinamico)
-
-- constantemente guardar la informacion en localStorage, si se recarga la pagina deberian mantenerse los comentarios
-*/
-const comentario = document.querySelector("#comentario");
 const formulario = document.forms[0];
-const comentarios= document.querySelector(".comentarios")
+const inputComentario = document.querySelector("#comentario");
+const contenedorComentarios = document.querySelector(".comentarios");
 
-let array = [];
+const comentariosEnMemoria = obtenerComentarios();
 
-function comentariosArray() {
-  let valorComentario = comentario.value;
-
-  array.push(valorComentario);
-
-  console.log(array);
+function guardarComentario(comentario) {
+  comentariosEnMemoria.push(comentario);
+  localStorage.setItem("comentarios", JSON.stringify(comentariosEnMemoria));
 }
 
-console.log(array);
-
-function renderizarComentarios() {
-
-    comentarios.innerHTML="";
-    
-array.forEach((element) => {
-     comentarios.innerHTML += `
-    <p>${element}</p>
-    `;
+function obtenerComentarios() {
+  let comentariosAlmacenado = JSON.parse(localStorage.getItem("comentarios"));
+  if (!comentariosAlmacenado) {
+    comentariosAlmacenado = [];
+  }
+  comentariosAlmacenado.forEach((element) => {
+    contenedorComentarios.innerHTML += `
+  <p>${element}</p>
+  `;
   });
+
+  return comentariosAlmacenado;
 }
 
-formulario.addEventListener("submit", (e) => {
-  e.preventDefault();
-
-  comentariosArray();
-  renderizarComentarios();
+formulario.addEventListener("submit", function (event) {
+  event.preventDefault();
+  contenedorComentarios.innerHTML = "";
+  guardarComentario(inputComentario.value);
+  obtenerComentarios();
 });
-
