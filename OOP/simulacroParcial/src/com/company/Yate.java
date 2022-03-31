@@ -22,14 +22,14 @@ public class Yate extends embarcacion implements Vendible, Comparable{
         Yate y = (Yate) o;
 
         if(this.cantidadCamarotes > y.getCantidadCamarotes()){
-            System.out.println("Es más grande");
+            System.out.println("Es más lujoso");
             return 1;
         }
         else if(this.cantidadCamarotes < y.getCantidadCamarotes()){
-            System.out.println("Es más pequeño");
+            System.out.println("Es menos lujoso");
             return -1;
         }
-        System.out.println("Son iguales");
+        System.out.println("Son igualmente de lujosos");
         return 0;
     }
 }
