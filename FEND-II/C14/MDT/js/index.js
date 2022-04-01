@@ -1,6 +1,7 @@
 const formulario = document.forms[0];
 const inputComentario = document.querySelector("#comentario");
 const contenedorComentarios = document.querySelector(".comentarios");
+const botonBorrar = document.querySelector("#borrar");
 
 const comentariosEnMemoria = obtenerComentarios();
 
@@ -28,4 +29,18 @@ formulario.addEventListener("submit", function (event) {
   contenedorComentarios.innerHTML = "";
   guardarComentario(inputComentario.value);
   obtenerComentarios();
+  formulario.reset();
 });
+
+botonBorrar.addEventListener("click", deleteInner());
+
+function deleteInner(){
+  // contenedorComentarios.removeChild(contenedorComentarios.firstChild);
+  // console.log(contenedorComentarios);
+  // console.log("ouch")
+  let abc = localStorage.getItem("comentarios");
+  localStorage.removeItem(abc);
+  comentariosAlmacenado = [];
+  contenedorComentarios.innerHTML = "";
+  
+}
