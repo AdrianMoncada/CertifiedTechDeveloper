@@ -12,7 +12,7 @@ public class Main {
         POO.puedeRecuperarse();
 
         Final frontEndII = new Final(adrian,"Formularios", "Crear una página en base al siguiente figma", 10.0,10.0,"Muy bueno.");
-        Final designThinking = new Final(adrian,"Conociendo al usuario", "Entrevistar a un actor", 10.0,10.0,"Muy bueno.");
+        Final designThinking = new Final(adrian,"Conociendo al usuario", "Entrevistar a un actor", 10.0,3.0,"Muy bueno.");
 
         frontEndII.estaAprobado();
         designThinking.estaAprobado();

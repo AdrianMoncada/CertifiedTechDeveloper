@@ -16,9 +16,8 @@ public abstract class Examen {
     public Boolean estaAprobado() {
         if (nota >= 4) {
             return true;
-        } else {
-            return false;
         }
+        return false;
     }
 
     public Double getNota() {

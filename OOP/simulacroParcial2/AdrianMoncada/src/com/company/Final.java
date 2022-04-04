@@ -9,6 +9,15 @@ public class Final extends Examen implements Comparable {
         this.notaOral = notaOral;
         this.descripcionOral = descripcionOral;
     }
+    @Override
+    public Boolean estaAprobado() {
+        if (getNota() >= 4 & notaOral >= 4) {
+            System.out.println("Está aprobado!");
+            return true;
+        }
+        System.out.println("Desaprobado");
+        return false;
+    }
 
     @Override
     public int compareTo(Object o) {
