@@ -35,14 +35,25 @@ window.addEventListener('load', function () {
     /* -------------------------------------------------------------------------- */
     /*                     FUNCIÓN 2: Realizar el login [POST]                    */
     /* -------------------------------------------------------------------------- */
-    function realizarLogin(settings) {
-       
+    function realizarLogin(configuraciones) {
 
+    fetch(`${urlBase}/users/login`, configuraciones)
+    .then(respuesta => respuesta.json())
+    .then(data => {
+        // corroboramos que nos llega un toke
+        if(data.jwt){
+            // guardamos el token en storage
+            localStorage.setItem('jwt', JSON.stringify(data.jwt));
 
+            // redireccionamos al usuario a la pantalla de tareas
+            location.replace('./mis-tareas.html');
+        }
+    }).catch( error => {
+        console.log("Error escuchando la promesa.");
+        console.log(error);
+    })
 
-
-        
-    };
+};
 
 
 });
