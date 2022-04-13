@@ -13,7 +13,6 @@ public class Almacen {
     }
 
     public Double calcularEspacioNecesario(){
-        /*pendiente*/
         Double espacioTotal = 0.0;
         for (Producto producto : productos) {
             espacioTotal += producto.calcularEspacio();

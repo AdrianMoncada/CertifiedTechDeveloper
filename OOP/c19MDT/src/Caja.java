@@ -12,7 +12,6 @@ public class Caja extends Producto{
 
     @Override
     public Double calcularEspacio() {
-        /*pendiente*/
         return longitud * ancho * altura;
     }
 }
