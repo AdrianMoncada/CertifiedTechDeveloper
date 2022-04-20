@@ -1,14 +1,14 @@
-public class Reparacion {
+public abstract class Reparacion {
     private String nombre;
     private Double costo;
     private String direccionEntrega;
 
     private Estado estadoActual;
 
-    public Reparacion(String nombre, String direccionEntrega) {
+    public Reparacion(String nombre) {
         this.nombre = nombre;
-        this.costo = 0.0;
-        this.direccionEntrega = direccionEntrega;
+        this.costo = null;
+        this.direccionEntrega = null;
         estadoActual = new EstadoPresupuesto;
     }
 
@@ -28,9 +28,7 @@ public class Reparacion {
         this.direccionEntrega = direccion;
     }*/
 
-    public void siguientePaso(){};/*{
-        this.estadoActual = new EstadoEnReparacion();
-    }*/
+    public abstract void siguientePaso();
 
 
 }
