@@ -1,9 +1,9 @@
 public interface Estado {
-    public Estado siguientePaso();
+    void siguientePaso();
 
-    public void valorPresupuesto();
+    void valorPresupuesto(Double costo) throws EstadoException;
 
-    public void sumaRepuesto();
+    void agregarRepuesto(Double costoRepuesto) throws EstadoException;
 
-    public void cambiarDireccion();
+    void cambiarDireccion(String direccion) throws EstadoException;
 }
