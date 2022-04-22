@@ -8,6 +8,11 @@ describe("Pruebas de suma", () => {
     expect(suma(25,25)).toBe(50);
   })
 
+  it("Fruta es verdadero", () => {
+    let fruta = false;
+    expect(fruta).toBeTruthy();
+  })
+
   it("Salida de suma con números negativos", () => {
     expect(suma(50,-10)).toBe(40);
   })
