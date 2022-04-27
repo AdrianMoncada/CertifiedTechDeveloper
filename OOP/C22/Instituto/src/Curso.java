@@ -27,4 +27,12 @@ public class Curso implements Vendible{
     public void mostrarInformacion(){
         System.out.println(this.nombre + " $" + this.precioTotal);
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Double getPrecioTotal() {
+        return precioTotal;
+    }
 }
