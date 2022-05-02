@@ -36,11 +36,12 @@ window.addEventListener('load', function () {
     /*                     FUNCIÓN 2: Realizar el login [POST]                    */
     /* -------------------------------------------------------------------------- */
     function realizarLogin(configuraciones) {
-
+    
+    // petición
     fetch(`${urlBase}/users/login`, configuraciones)
     .then(respuesta => respuesta.json())
     .then(data => {
-        // corroboramos que nos llega un toke
+        // corroboramos que nos llega un token
         if(data.jwt){
             // guardamos el token en storage
             localStorage.setItem('jwt', JSON.stringify(data.jwt));

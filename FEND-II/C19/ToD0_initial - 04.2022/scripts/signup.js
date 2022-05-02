@@ -41,7 +41,6 @@ window.addEventListener('load', function () {
 
     });
 
-  
 
     /* -------------------------------------------------------------------------- */
     /*                    FUNCIÓN 2: Realizar el signup [POST]                    */
@@ -52,7 +51,7 @@ window.addEventListener('load', function () {
         fetch(`${urlBase}/users`, configuraciones)
             .then(respuesta => respuesta.json())
             .then(data => {
-                // corroboramos que nos llega un toke
+                // corroboramos que nos llega un token
                 if(data.jwt){
                     // guardamos el token en storage
                     localStorage.setItem('jwt', JSON.stringify(data.jwt));
