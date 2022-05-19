@@ -10,4 +10,20 @@ public class Producto {
         this.peso = peso;
         this.envasado = envasado;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public Integer getLote() {
+        return lote;
+    }
+
+    public Integer getPeso() {
+        return peso;
+    }
+
+    public String getEnvasado() {
+        return envasado;
+    }
 }
