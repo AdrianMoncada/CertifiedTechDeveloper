@@ -22,4 +22,13 @@ public class Hotel {
     public String getCiudad() {
         return ciudad;
     }
+
+    @Override
+    public String toString() {
+        return "Hotel{" +
+                "fechaEntrada=" + fechaEntrada +
+                ", fechaSalida=" + fechaSalida +
+                ", ciudad='" + ciudad + '\'' +
+                '}';
+    }
 }

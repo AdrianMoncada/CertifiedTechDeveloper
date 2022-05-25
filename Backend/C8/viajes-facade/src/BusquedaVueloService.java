@@ -21,7 +21,7 @@ public class BusquedaVueloService {
                 vuelosEncontrados.add(v);
             }
         }
-        System.out.println("Se encontraron: " + vuelosEncontrados.size() + " de vuelos");
+        System.out.println("Se encontraron: " + vuelosEncontrados.size() + " vuelos");
         return vuelosEncontrados;
     }
 }

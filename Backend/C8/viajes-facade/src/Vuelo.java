@@ -28,4 +28,14 @@ public class Vuelo {
     public String getDestino() {
         return destino;
     }
+
+    @Override
+    public String toString() {
+        return "Vuelo{" +
+                "fechaSalida=" + fechaSalida +
+                ", fechaRegreso=" + fechaRegreso +
+                ", origen='" + origen + '\'' +
+                ", destino='" + destino + '\'' +
+                '}';
+    }
 }
