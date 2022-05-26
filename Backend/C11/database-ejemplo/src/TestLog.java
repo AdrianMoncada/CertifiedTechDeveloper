@@ -17,9 +17,12 @@ public class TestLog {
         //vuelve a crear
         // Se crea una tabla llamada Test que lleva un nombre y un id
         String createSql = "DROP TABLE IF EXISTS TEST;\n" +
-                "CREATE TABLE TEST(ID INT PRIMARY KEY, NAME VARCHAR(255));\n" +
-                "INSERT INTO TEST VALUES(1, 'Hello');\n" +
-                "INSERT INTO TEST VALUES(2, 'World');\n";
+                "CREATE TABLE TEST(ID INT PRIMARY KEY, FIGURA VARCHAR(255), COLOR VARCHAR(255));\n" +
+                "INSERT INTO TEST VALUES(1, 'Circulo', 'Rojo');\n" +
+                "INSERT INTO TEST VALUES(2, 'Circulo', 'Azul');\n" +
+                "INSERT INTO TEST VALUES(3, 'Cuadrado', 'Violeta');\n" +
+                "INSERT INTO TEST VALUES(4, 'Cuadrado', 'Naranja');\n" +
+                "INSERT INTO TEST VALUES(5, 'Circulo', 'Verde');\n";
         // usamos el objeto Statemnt y utilizamos el metodo execute, por parametro pasamos
         //la tabla creada anteriormente
         stmt.execute(createSql);
@@ -33,7 +36,7 @@ public class TestLog {
         // Itera mientras rd tenga un próximo elemento
         while(rd.next()) {
             // pasamos por parametro el índice de la columna
-            System.out.println(rd.getInt(1) + rd.getString(2));
+            System.out.println(rd.getInt(1) + " " + rd.getString(2) + " " + rd.getString(3));
         }
     }
 }
