@@ -1,5 +1,4 @@
 import {useState} from "react"
-import Tasks from "./Components/Tasks";
 import { pokemonData } from "./Data/data";
 
 import Header from './Components/Header';
@@ -10,7 +9,9 @@ import PokemonElectric from './Components/PokemonElectric';
 
 function App() {
 
-  const [state, setState] = useState();
+  const [state, setState] = useState(<PokemonRock 
+    tipo = {pokemonData.rock}
+  />);
 
   const handleTarjeta =(valor)=>{
     if(valor === 1){
