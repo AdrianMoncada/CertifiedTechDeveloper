@@ -9,8 +9,8 @@ import PokemonElectric from './Components/PokemonElectric';
 
 function App() {
 
-  const [state, setState] = useState(<PokemonRock 
-    tipo = {pokemonData.rock}
+  const [state, setState] = useState(<PokemonFire 
+    tipo = {pokemonData.fire}
   />);
 
   const handleTarjeta =(valor)=>{
