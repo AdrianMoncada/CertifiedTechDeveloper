@@ -1,12 +1,12 @@
 import Button from "./Button";
-
-const Header =({ChangeState})=>{
+import { objBg } from "../assets/backgroundColor";
+// style = {{backgroundColor: objBg[element]}
+const Header =({arrOfKey, ChangeState})=>{
     return(
         <header className="header">
-            <Button color="#B6A136" text="Rock Type" onClick={()=>ChangeState(1)}/>
-            <Button color="#6390F0" text="Water Type" onClick={()=>ChangeState(2)}/>
-            <Button color="#EE8130" text="Fire Type" onClick={()=>ChangeState(3)}/>
-            <Button color="#F7D02C" text="Electric Type" onClick={()=>ChangeState(4)}/>
+            {arrOfKey.map((type,index)=> 
+            <Button key={index} text={type} ChangeState= {ChangeState} index={index} />
+            )}
         </header>
     )
 }

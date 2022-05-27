@@ -1,9 +1,11 @@
 import Tarjeta from "./Tarjeta";
 
-const PokemonType = ({tipo})=>{
+const PokemonType = ({element, tipo})=>{
+  console.log(element)
     return(
       <>
-        <Tarjeta 
+        <Tarjeta
+        element={element} 
         tipo = {tipo}
       />
       </>

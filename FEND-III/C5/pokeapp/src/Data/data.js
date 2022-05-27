@@ -26,7 +26,7 @@ export const pokemonData = {
         {
             id: 1,
             pokemonName:"Blastoise",
-            avatar:"https://w7.pngwing.com/pngs/14/356/png-transparent-pokemon-let-s-go-pikachu-and-let-s-go-eevee-pokemon-go-blastoise-pokemon-go-thumbnail.png",
+            avatar:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
         },{
             id: 2,
             pokemonName:"Squirtle",
