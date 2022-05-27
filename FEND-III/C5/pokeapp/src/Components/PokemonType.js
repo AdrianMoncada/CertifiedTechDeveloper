@@ -1,6 +1,6 @@
 import Tarjeta from "./Tarjeta";
 
-const PokemonWater = ({tipo})=>{
+const PokemonType = ({tipo})=>{
     return(
       <>
         <Tarjeta 
@@ -10,4 +10,4 @@ const PokemonWater = ({tipo})=>{
     )
 }
 
-export default PokemonWater;
+export default PokemonType;

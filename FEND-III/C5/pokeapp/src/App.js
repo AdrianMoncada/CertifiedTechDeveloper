@@ -2,32 +2,29 @@ import {useState} from "react"
 import { pokemonData } from "./Data/data";
 
 import Header from './Components/Header';
-import PokemonRock from './Components/PokemonRock';
-import PokemonWater from'./Components/PokemonWater'
-import PokemonFire from './Components/PokemonFire';
-import PokemonElectric from './Components/PokemonElectric';
-
+import PokemonType from'./Components/PokemonType'
 function App() {
-
-  const [state, setState] = useState(<PokemonFire 
+  const arrOfKey = Object.keys(pokemonData);
+  const [state, setState] = useState(<PokemonType 
     tipo = {pokemonData.fire}
   />);
 
   const handleTarjeta =(valor)=>{
     if(valor === 1){
-        setState(<PokemonRock 
+        setState(<PokemonType
+          element={arrOfKey[valor]} 
           tipo = {pokemonData.rock}
         />)
     }else if (valor === 2) {
-        setState(<PokemonWater 
+        setState(<PokemonType 
           tipo = {pokemonData.water}
         />)
     } else if (valor === 3) {
-      setState(<PokemonFire 
+      setState(<PokemonType 
         tipo = {pokemonData.fire}
       />)
     } else if (valor === 4) {
-      setState(<PokemonElectric 
+      setState(<PokemonType 
         tipo = {pokemonData.electric}
       />)
     } 
