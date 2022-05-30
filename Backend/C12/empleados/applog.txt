@@ -92,3 +92,19 @@ org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-21
 	at org.h2.jdbc.JdbcResultSet.getInt(JdbcResultSet.java:319)
 	at Main.main(Main.java:76)
 DEBUG   2022-05-28 16:58:29,014 [main] Main  - ID: 1 MAIL: federicodiaz@gmail.com NAME: Federico COUNTRY: Argentina LASTNAME: Diaz
+ERROR   2022-05-28 21:12:46,612 [main] Main  - error: 
+org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:510)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.validateUserAndPassword(Engine.java:393)
+	at org.h2.engine.Engine.createSession(Engine.java:206)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at Main.getConnection(Main.java:36)
+	at Main.main(Main.java:47)
