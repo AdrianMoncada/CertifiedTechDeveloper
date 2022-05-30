@@ -44,7 +44,7 @@ public class Test {
             psUpdate2.setDouble(1, cuenta.getSaldo() + 10);
             psUpdate2.setInt(2, 1);
             psUpdate2.execute();
-            int a = 4 /0;
+            int a = 4 / 0;
             connection.commit();
 
             connection.setAutoCommit(true);
@@ -75,7 +75,8 @@ public class Test {
 
     public static Connection getConnection() throws Exception {
         Class.forName("org.h2.Driver").newInstance();
-        return DriverManager.getConnection("jdbc:h2:~/test");
+        return DriverManager.getConnection("jdbc:h2:" +
+                "~/test", "sa", "");
 
     }
 
