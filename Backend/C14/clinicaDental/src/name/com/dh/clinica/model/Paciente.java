@@ -17,6 +17,9 @@ public class Paciente {
         this.domicilio = domicilio;
     }
 
+    public Paciente() {
+    }
+
     public Paciente(String apellido, String nombre, String dni, String fechaingreso, String domicilio) {
         this.apellido = apellido;
         this.nombre = nombre;
@@ -71,5 +74,17 @@ public class Paciente {
 
     public void setDomicilio(String domicilio) {
         this.domicilio = domicilio;
+    }
+
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "id=" + id +
+                ", apellido='" + apellido + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", dni='" + dni + '\'' +
+                ", fechaingreso='" + fechaingreso + '\'' +
+                ", domicilio='" + domicilio + '\'' +
+                '}';
     }
 }
