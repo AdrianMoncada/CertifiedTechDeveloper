@@ -1,0 +1,206 @@
+DEBUG   2022-06-02 14:47:09,681 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 1 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,682 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 2 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,683 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 3 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,683 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 4 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,683 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 5 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,683 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 6 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,683 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 7 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,683 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 8 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,683 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 9 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 10 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 11 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 12 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 13 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 14 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 15 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 16 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 17 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,684 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 18 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,685 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 19 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,685 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 20 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,685 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 21 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,685 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 22 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,685 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 23 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,685 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 24 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,685 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 25 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,685 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 26 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,686 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 27 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:47:09,686 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 28 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+ERROR   2022-06-02 14:54:44,024 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - error: 
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:144)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at main.com.dh.clinica.dao.impl.OdontologoDAOH2.guardar(OdontologoDAOH2.java:31)
+	at main.com.dh.clinica.dao.impl.OdontologoDAOH2.guardar(OdontologoDAOH2.java:16)
+	at main.com.dh.clinica.service.OdontologoService.guardar(OdontologoService.java:16)
+	at test.com.dh.clinica.service.OdontologoServiceTest.cargarDataSet(OdontologoServiceTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: /home/adrianmoncada/test.mv.db [2.1.212/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:449)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4118)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 31 more
+DEBUG   2022-06-02 14:54:44,068 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ODONTOLOGO GUARDADO: ID: 0 MATRICULA: 13141516 NOMBRE: Federico APELLIDO: Ponce
+ERROR   2022-06-02 14:54:44,082 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - error: 
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:144)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at main.com.dh.clinica.dao.impl.OdontologoDAOH2.guardar(OdontologoDAOH2.java:31)
+	at main.com.dh.clinica.dao.impl.OdontologoDAOH2.guardar(OdontologoDAOH2.java:16)
+	at main.com.dh.clinica.service.OdontologoService.guardar(OdontologoService.java:16)
+	at test.com.dh.clinica.service.OdontologoServiceTest.cargarDataSet(OdontologoServiceTest.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: /home/adrianmoncada/test.mv.db [2.1.212/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:449)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4118)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 31 more
+DEBUG   2022-06-02 14:54:44,086 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ODONTOLOGO GUARDADO: ID: 0 MATRICULA: 17181920 NOMBRE: Matilda APELLIDO: Cáceres
+ERROR   2022-06-02 14:54:44,141 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - error: 
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-212]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:212)
+	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:165)
+	at org.h2.mvstore.db.Store.<init>(Store.java:144)
+	at org.h2.engine.Database.<init>(Database.java:324)
+	at org.h2.engine.Engine.openSession(Engine.java:92)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at main.com.dh.clinica.dao.impl.OdontologoDAOH2.buscarTodos(OdontologoDAOH2.java:90)
+	at main.com.dh.clinica.service.OdontologoService.buscarTodos(OdontologoService.java:24)
+	at test.com.dh.clinica.service.OdontologoServiceTest.traerTodos(OdontologoServiceTest.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.h2.mvstore.MVStoreException: The file is locked: /home/adrianmoncada/test.mv.db [2.1.212/7]
+	at org.h2.mvstore.DataUtils.newMVStoreException(DataUtils.java:1004)
+	at org.h2.mvstore.FileStore.open(FileStore.java:163)
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:449)
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:4118)
+	at org.h2.mvstore.db.Store.<init>(Store.java:133)
+	... 40 more
+DEBUG   2022-06-02 14:54:55,048 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ODONTOLOGO GUARDADO: ID: 29 MATRICULA: 13141516 NOMBRE: Federico APELLIDO: Ponce
+DEBUG   2022-06-02 14:54:55,059 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ODONTOLOGO GUARDADO: ID: 30 MATRICULA: 17181920 NOMBRE: Matilda APELLIDO: Cáceres
+DEBUG   2022-06-02 14:54:55,108 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 1 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,109 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 2 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,109 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 3 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,112 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 4 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,113 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 5 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,114 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 6 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,114 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 7 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,114 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 8 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,115 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 9 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,115 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 10 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,116 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 11 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,116 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 12 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,118 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 13 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 14 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 15 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 16 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 17 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 18 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 19 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 20 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 21 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,120 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 22 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,121 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 23 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,121 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 24 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,121 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 25 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,121 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 26 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,121 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 27 MATRICULA: 13141516 NOMBRE: Daniel APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,121 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 28 MATRICULA: 17181920 NOMBRE: Verónica APELLIDO: Wikenbawer
+DEBUG   2022-06-02 14:54:55,121 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 29 MATRICULA: 13141516 NOMBRE: Federico APELLIDO: Ponce
+DEBUG   2022-06-02 14:54:55,121 [main] main.com.dh.clinica.dao.impl.OdontologoDAOH2  - ID: 30 MATRICULA: 17181920 NOMBRE: Matilda APELLIDO: Cáceres
