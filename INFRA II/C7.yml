@@ -4,7 +4,7 @@
     - name: Crear grupo de seguridad con HTTPS, HTTP y SSH
       ec2_group:
         name: digitalhouse
-        vpc_id: vpc-0a31ba47a968751e4
+        vpc_id: vpc-0042c222982294aa6
         description: sg con las reglas
         region: us-west-1
         rules:
@@ -27,7 +27,7 @@
           - device_name: /dev/xvda
             volume_type: gp2
             volume_size: 8
-        vpc_subnet_id: subnet-089d1574bc2c25d46 - grupo2-vpc-subnet-private2-sa-east-1b
+        vpc_subnet_id: subnet-0919b483a1e7ebcc9
         assign_public_ip: yes
         key_name: digitalhouse
       register: info
