@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: #ddd;
+  padding: 20px 40px;
+  /* display: flex; */
+  background: linear-gradient(135deg, #9a0dfe, #637dfb);
+  box-shadow: 0 2px 12px 0 rgba(91, 41, 191, 0.5);
+}
+header h1{
+  margin-bottom: 10px;
+}
+
+header p span {
+  background-color: rgb(255, 255, 255);
+  color: rgb(66, 66, 66);
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.producto {
+  border: 0.5px solid #ddd;
+  padding: 20px;
+  width: 33%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+             background: linear-gradient(135deg, #9a0dfe, #637dfb);
+  box-shadow: 0 2px 12px 0 rgba(91, 41, 191, 0.5);
+
+}
+
+.producto img{
+  width: 200px;
+}
+.producto h5{
+  text-align: center;
+}
+
+.producto h5 span{
+  background-color: rgb(255, 255, 255);
+  padding: 3px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
+.producto button {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color: black;
+ }
+ 
+ .producto button::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #b9b9b9 0%, #ffffff 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .producto button:hover::before {
+  width: 9em;
+ }
+ 

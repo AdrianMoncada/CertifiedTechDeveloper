@@ -33,8 +33,6 @@ public class TurnoController {
             response = ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
 
         return response;
-
-
     }
 
     @GetMapping
