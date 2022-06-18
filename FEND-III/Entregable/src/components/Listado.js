@@ -10,13 +10,10 @@ import data from "./data"
 
 const Listado = ({method})=>{
   return (
-    
     <div className='container'>
-      
-      {/* hacer iterar sobre data hasta que no tenga índices */}
-      <Item itemData={data[0]} method={method}></Item>
-      <Item itemData={data[1]} method={method}></Item>
-      <Item itemData={data[2]} method={method}></Item>
+      {data.map(dataSet =>
+      <Item itemData={dataSet} method={method} key={dataSet.id}></Item>
+      )}
     </div>
   )
 }
