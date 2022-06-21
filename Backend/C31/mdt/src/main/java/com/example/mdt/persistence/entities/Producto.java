@@ -1,4 +1,4 @@
-package com.example.mdt.model;
+package com.example.mdt.persistence.entities;
 
 import javax.persistence.*;
 
@@ -17,6 +17,9 @@ public class Producto {
         this.nombre = nombre;
         this.cantidad = cantidad;
         this.descripcion = descripcion;
+    }
+
+    public Producto() {
     }
 
     public Long getId() {
