@@ -1,0 +1,5 @@
+insert into equipo values (1,  'Rosario', 'NOB')
+insert into jugador values(1, 'Maradona', 10,2, 2)
+select * from equipo
+select * from jugador
+delete from equipo
