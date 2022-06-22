@@ -26,11 +26,6 @@ public class ProductoController {
         return respuesta;
     }
 
-   /* @GetMapping("/todos")
-    public ResponseEntity<List<Producto>> consultarTodos(){
-        return ResponseEntity.ok(service.obtenerTodos());
-    }*/
-
     @RequestMapping(value = "/todos", method = RequestMethod.GET, produces = "application/json")
     public List<Producto> getProduct() {
         return service.obtenerTodos();
