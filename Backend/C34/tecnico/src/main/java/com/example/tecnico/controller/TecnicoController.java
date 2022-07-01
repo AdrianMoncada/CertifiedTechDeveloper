@@ -26,7 +26,7 @@ public class TecnicoController {
     }
 
     @PostMapping("/new")
-    public String registrarTecnico(@RequestBody Tecnico tecnico) {
+    public String registrarTecnico(Tecnico tecnico) {
         tecnicoService.crear(tecnico);
         return "CREADO OK";
     }
